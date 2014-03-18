@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Eshop - ES" verbose="3" parallel="false" thread-count="10">
+
+	<test name="Phoneshop page testing -ES">
+		<parameter name="locale" value="es" />
+		<parameter name="page" value="phones" />
+		<parameter name="browser" value="*firefox" />
+		<parameter name="javascriptRequired" value="true" />
+		<groups>
+			<run>
+				<include name="quicktest" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.sonyericsson.automatedtests.quick.UsingPhoneshopPage">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Accessories Page testing -ES">
+		<parameter name="locale" value="es" />
+		<parameter name="page" value="accessories" />
+		<parameter name="browser" value="*firefox" />	
+		<parameter name="javascriptRequired" value="true" />
+		<groups>
+			<run>
+				<include name="quicktest" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.sonyericsson.automatedtests.quick.UsingAccessoryshopPage">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Store Entry page testing -ES">
+		<parameter name="locale" value="es" />
+		<parameter name="browser" value="*firefox" />
+		<parameter name="javascriptRequired" value="true" />
+		<groups>
+			<run>
+				<include name="quicktest" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.sonyericsson.automatedtests.quick.UsingStoreentryPage">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Filtered Category pages (Quick Links) Testing -ES" preserve-order="true">
+		<parameter name="browser" value="*firefox" />
+		<parameter name="locale" value="es" />
+		<parameter name="javascriptRequired" value="true" />
+		<groups>
+			<run>
+				<include name="quicktest" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.sonyericsson.automatedtests.quick.UsingFilteredCategoryPage">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Product Home Page testing -ES">
+		<parameter name="locale" value="es" />
+		<parameter name="page" value="phones" />
+		<parameter name="browser" value="*firefox" />
+		<parameter name="javascriptRequired" value="true" />
+		<groups>
+			<run>
+				<include name="quicktest" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.sonyericsson.automatedtests.quick.UsingProductHomePage">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Checkout flow Testing(Anonymous) - Phone -ES">
+		<parameter name="browser" value="*firefox" />
+		<parameter name="locale" value="es" />
+		<parameter name="page" value="phones" />
+		<parameter name="javascriptRequired" value="true" />
+		<parameter name="auth" value="anonymous" />
+		<groups>
+			<run>
+				<include name="integrationtest" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.sonyericsson.automatedtests.quick.UsingEShopPageNew">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Checkout flow Testing(Loggedin) - Accessory -ES">
+		<parameter name="browser" value="*firefox" />
+		<parameter name="locale" value="es" />
+		<parameter name="page" value="accessories" />
+		<parameter name="javascriptRequired" value="true" />
+		<parameter name="auth" value="loggedin" />
+		
+		<groups>
+			<run>
+				<include name="integrationtest" /> 
+			</run>
+		</groups>
+		<classes>
+			<class name="com.sonyericsson.automatedtests.quick.UsingEShopPageNew">		
+			</class>
+		</classes>
+ 	</test> 
+ 	
+ 	<test name="Accessory and Phone page testing -ES">
+		<parameter name="locale" value="es" />
+		<parameter name="browser" value="*firefox" />	
+		<parameter name="javascriptRequired" value="true" />
+		
+		<classes>
+			<class name="com.sonyericsson.automatedtests.quick.UsingAccessoryAndPhonePages">
+		
+			</class>
+		</classes>
+	</test>
+	
+</suite>

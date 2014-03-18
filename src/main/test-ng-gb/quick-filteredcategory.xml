@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Eshop - Filtered Category Pages (Quick Links)" verbose="3"
+	parallel="false" thread-count="10">
+
+	<test name="Filtered Category pages (Quick Links) Testing -GB" preserve-order="true">
+		<parameter name="browser" value="*firefox" />
+		<parameter name="locale" value="gb" />
+		<parameter name="javascriptRequired" value="true" />
+		<groups>
+			<run>
+				<include name="quicktest" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.sonyericsson.automatedtests.quick.UsingFilteredCategoryPage">
+			</class>
+		</classes>
+	</test>
+	
+<!-- 	<test name="Filtered Category pages (Quick Links) Testing -SE" preserve-order="true"> -->
+<!-- 		<parameter name="browser" value="*firefox" /> -->
+<!-- 		<parameter name="locale" value="se" /> -->
+<!-- 		<parameter name="javascriptRequired" value="true" /> -->
+<!-- 		<groups> -->
+<!-- 			<run> -->
+<!-- 				<include name="quicktest" /> -->
+<!-- 			</run> -->
+<!-- 		</groups> -->
+<!-- 		<classes> -->
+<!-- 			<class -->
+<!-- 				name="com.sonyericsson.automatedtests.quick.UsingFilteredCategoryPage"> -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+	
+<!-- 	<test name="Filtered Category pages (Quick Links) Testing -FR" preserve-order="true"> -->
+<!-- 		<parameter name="browser" value="*firefox" /> -->
+<!-- 		<parameter name="locale" value="fr" /> -->
+<!-- 		<parameter name="javascriptRequired" value="true" /> -->
+<!-- 		<groups> -->
+<!-- 			<run> -->
+<!-- 				<include name="quicktest" /> -->
+<!-- 			</run> -->
+<!-- 		</groups> -->
+<!-- 		<classes> -->
+<!-- 			<class -->
+<!-- 				name="com.sonyericsson.automatedtests.quick.UsingFilteredCategoryPage"> -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 	<test name="Filtered Category pages (Quick Links) Testing -DE" preserve-order="true"> -->
+<!-- 		<parameter name="browser" value="*firefox" /> -->
+<!-- 		<parameter name="locale" value="de" /> -->
+<!-- 		<parameter name="javascriptRequired" value="true" /> -->
+<!-- 		<groups> -->
+<!-- 			<run> -->
+<!-- 				<include name="quicktest" /> -->
+<!-- 			</run> -->
+<!-- 		</groups> -->
+<!-- 		<classes> -->
+<!-- 			<class -->
+<!-- 				name="com.sonyericsson.automatedtests.quick.UsingFilteredCategoryPage"> -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 	<test name="Filtered Category pages (Quick Links) Testing -ES" preserve-order="true"> -->
+<!-- 		<parameter name="browser" value="*firefox" /> -->
+<!-- 		<parameter name="locale" value="es" /> -->
+<!-- 		<parameter name="javascriptRequired" value="true" /> -->
+<!-- 		<groups> -->
+<!-- 			<run> -->
+<!-- 				<include name="quicktest" /> -->
+<!-- 			</run> -->
+<!-- 		</groups> -->
+<!-- 		<classes> -->
+<!-- 			<class -->
+<!-- 				name="com.sonyericsson.automatedtests.quick.UsingFilteredCategoryPage"> -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+
+</suite>

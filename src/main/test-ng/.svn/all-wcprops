@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/eshop/!svn/ver/9036/trunk/automated-tests/src/main/test-ng
+END
+es.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/eshop/!svn/ver/9036/trunk/automated-tests/src/main/test-ng/es.xml
+END
+fr.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/eshop/!svn/ver/9036/trunk/automated-tests/src/main/test-ng/fr.xml
+END
+se.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/eshop/!svn/ver/9036/trunk/automated-tests/src/main/test-ng/se.xml
+END
+de.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/eshop/!svn/ver/9036/trunk/automated-tests/src/main/test-ng/de.xml
+END
+gb.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/eshop/!svn/ver/9036/trunk/automated-tests/src/main/test-ng/gb.xml
+END

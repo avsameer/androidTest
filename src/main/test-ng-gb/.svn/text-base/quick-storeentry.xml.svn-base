@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Eshop - Store Entry Page" verbose="3" parallel="methods"
+	thread-count="10" preserve-order="true">
+	<test name="Store Entry page testing -GB">
+		<parameter name="locale" value="gb" />
+		<parameter name="browser" value="*firefox" />
+		<parameter name="javascriptRequired" value="true" />
+		<groups>
+			<run>
+				<include name="quicktest" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.sonyericsson.automatedtests.quick.UsingStoreentryPage">
+			</class>
+		</classes>
+	</test>
+	
+	
+<!-- 	<test name="Store Entry page testing -SE"> -->
+<!-- 		<parameter name="locale" value="se" /> -->
+<!-- 		<parameter name="browser" value="*firefox" /> -->
+<!-- 		<parameter name="javascriptRequired" value="true" /> -->
+<!-- 		<groups> -->
+<!-- 			<run> -->
+<!-- 				<include name="quicktest" /> -->
+<!-- 			</run> -->
+<!-- 		</groups> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.sonyericsson.automatedtests.quick.UsingStoreentryPage"> -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 	<test name="Store Entry page testing -FR"> -->
+<!-- 		<parameter name="locale" value="fr" /> -->
+<!-- 		<parameter name="browser" value="*firefox" /> -->
+<!-- 		<parameter name="javascriptRequired" value="true" /> -->
+<!-- 		<groups> -->
+<!-- 			<run> -->
+<!-- 				<include name="quicktest" /> -->
+<!-- 			</run> -->
+<!-- 		</groups> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.sonyericsson.automatedtests.quick.UsingStoreentryPage"> -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 	<test name="Store Entry page testing -DE"> -->
+<!-- 		<parameter name="locale" value="de" /> -->
+<!-- 		<parameter name="browser" value="*firefox" /> -->
+<!-- 		<parameter name="javascriptRequired" value="true" /> -->
+<!-- 		<groups> -->
+<!-- 			<run> -->
+<!-- 				<include name="quicktest" /> -->
+<!-- 			</run> -->
+<!-- 		</groups> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.sonyericsson.automatedtests.quick.UsingStoreentryPage"> -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 	<test name="Store Entry page testing -ES"> -->
+<!-- 		<parameter name="locale" value="es" /> -->
+<!-- 		<parameter name="browser" value="*firefox" /> -->
+<!-- 		<parameter name="javascriptRequired" value="true" /> -->
+<!-- 		<groups> -->
+<!-- 			<run> -->
+<!-- 				<include name="quicktest" /> -->
+<!-- 			</run> -->
+<!-- 		</groups> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.sonyericsson.automatedtests.quick.UsingStoreentryPage"> -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+</suite>

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/eshop/!svn/ver/9665/trunk/automated-tests/src/main/java/com/sonyericsson/automatedtests/page
+END
+StoreentryPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/eshop/!svn/ver/9574/trunk/automated-tests/src/main/java/com/sonyericsson/automatedtests/page/StoreentryPage.java
+END
+ProductHomePage.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/eshop/!svn/ver/9546/trunk/automated-tests/src/main/java/com/sonyericsson/automatedtests/page/ProductHomePage.java
+END
+CheckAllProducts.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/eshop/!svn/ver/9036/trunk/automated-tests/src/main/java/com/sonyericsson/automatedtests/page/CheckAllProducts.java
+END
+EShopPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/eshop/!svn/ver/9036/trunk/automated-tests/src/main/java/com/sonyericsson/automatedtests/page/EShopPage.java
+END
+AccessoryshopPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/eshop/!svn/ver/9152/trunk/automated-tests/src/main/java/com/sonyericsson/automatedtests/page/AccessoryshopPage.java
+END
+JSONPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/eshop/!svn/ver/9038/trunk/automated-tests/src/main/java/com/sonyericsson/automatedtests/page/JSONPage.java
+END
+EShopPageNew.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/eshop/!svn/ver/9665/trunk/automated-tests/src/main/java/com/sonyericsson/automatedtests/page/EShopPageNew.java
+END
+FilteredCategoryPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/eshop/!svn/ver/8588/trunk/automated-tests/src/main/java/com/sonyericsson/automatedtests/page/FilteredCategoryPage.java
+END
+PhoneshopPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/eshop/!svn/ver/8584/trunk/automated-tests/src/main/java/com/sonyericsson/automatedtests/page/PhoneshopPage.java
+END

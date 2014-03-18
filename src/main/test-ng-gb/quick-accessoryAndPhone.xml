@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+	<suite name="Eshop - Accessories and Phones page" parallel="false">
+	
+	<test name="Accessory and Phone page testing -GB">
+		<parameter name="locale" value="gb" />
+		<parameter name="browser" value="*firefox" />	
+		<parameter name="javascriptRequired" value="true" />
+		
+		<classes>
+			<class name="com.sonyericsson.automatedtests.quick.UsingAccessoryAndPhonePages">
+		
+			</class>
+		</classes>
+	</test>
+	
+<!-- 	<test name="Accessory and Phone page testing -SE"> -->
+<!-- 		<parameter name="locale" value="se" /> -->
+<!-- 		<parameter name="browser" value="*firefox" />	 -->
+<!-- 		<parameter name="javascriptRequired" value="true" /> -->
+		
+<!-- 		<classes> -->
+<!-- 			<class name="com.sonyericsson.automatedtests.quick.UsingAccessoryAndPhonePages"> -->
+		
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 	<test name="Accessory and Phone page testing -FR"> -->
+<!-- 		<parameter name="locale" value="fr" /> -->
+<!-- 		<parameter name="browser" value="*firefox" />	 -->
+<!-- 		<parameter name="javascriptRequired" value="true" /> -->
+		
+<!-- 		<classes> -->
+<!-- 			<class name="com.sonyericsson.automatedtests.quick.UsingAccessoryAndPhonePages"> -->
+		
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 	<test name="Accessory and Phone page testing -DE"> -->
+<!-- 		<parameter name="locale" value="de" /> -->
+<!-- 		<parameter name="browser" value="*firefox" />	 -->
+<!-- 		<parameter name="javascriptRequired" value="true" /> -->
+		
+<!-- 		<classes> -->
+<!-- 			<class name="com.sonyericsson.automatedtests.quick.UsingAccessoryAndPhonePages"> -->
+		
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 	<test name="Accessory and Phone page testing -ES"> -->
+<!-- 		<parameter name="locale" value="es" /> -->
+<!-- 		<parameter name="browser" value="*firefox" />	 -->
+<!-- 		<parameter name="javascriptRequired" value="true" /> -->
+		
+<!-- 		<classes> -->
+<!-- 			<class name="com.sonyericsson.automatedtests.quick.UsingAccessoryAndPhonePages"> -->
+		
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+</suite>

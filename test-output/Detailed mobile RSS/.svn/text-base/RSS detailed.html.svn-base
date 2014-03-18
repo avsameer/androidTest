@@ -1,0 +1,137 @@
+<html>
+<head>
+<title>TestNG:  RSS detailed</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RSS detailed</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Mar 19 11:14:06 CET 2012</td>
+</tr>
+<tr><td>Total time:</td><td>88 seconds (88288 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>detailedtest </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sonyericsson.automatedtests.quick.UsingMobileRSSPage.verifyRssfeed()'><b>verifyRssfeed</b><br>Test class: com.sonyericsson.automatedtests.quick.UsingMobileRSSPage<br>Parameters: localhost:8080, /mobile/dotcom/splash<br/>
+<a href="#Output-8374450" onClick='toggleBox("Output-8374450", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-8374450" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-8374450">
+Link count 46<br/>
+Phname Array ->Aino, Aspen, C901, C903, Cedar, Sonyericssonelm, G900, Jalou, Jaloubydolcegabbana, Livewithwalkman, Mixwalkmanphone, J10, S312, Satio, Sonyericssontxt, Sonyericssontxtpro, Spiro, T707, T715, Vivaz, Vivazpro, W205, W508, W995, Xperiaactive, Xperiaarc, Xperiaarcs, Xperiamini, Xperiaminipro, Xperianeo, Xperianeov, Xperiap, Xperiaplay, Xperiapro, Xperiapureness, Xperiaray, Sonyxperias, Xperiasola, Xperiau, Xperiax10, Xperiax10mini, Xperiax10minipro, Xperiax8, Yari, Zylo, <br/>
+======================================<br/>
+Test for phone =Aino<br/>
+Test for phone =Aspen<br/>
+Test for phone =C901<br/>
+Test for phone =C903<br/>
+Test for phone =Cedar<br/>
+Test for phone =Sonyericssonelm<br/>
+Test for phone =G900<br/>
+Test for phone =Jalou<br/>
+Test for phone =Jaloubydolcegabbana<br/>
+Test for phone =Livewithwalkman<br/>
+Test for phone =Mixwalkmanphone<br/>
+Test for phone =J10<br/>
+Test for phone =S312<br/>
+Test for phone =Satio<br/>
+Test for phone =Sonyericssontxt<br/>
+Test for phone =Sonyericssontxtpro<br/>
+Test for phone =Spiro<br/>
+Test for phone =T707<br/>
+Test for phone =T715<br/>
+Test for phone =Vivaz<br/>
+Test for phone =Vivazpro<br/>
+Test for phone =W205<br/>
+Test for phone =W508<br/>
+Test for phone =W995<br/>
+Test for phone =Xperiaactive<br/>
+Test for phone =Xperiaarc<br/>
+Test for phone =Xperiaarcs<br/>
+Test for phone =Xperiamini<br/>
+Test for phone =Xperiaminipro<br/>
+Test for phone =Xperianeo<br/>
+Test for phone =Xperianeov<br/>
+Test for phone =Xperiap<br/>
+Test for phone =Xperiaplay<br/>
+Test for phone =Xperiapro<br/>
+Test for phone =Xperiaray<br/>
+Test for phone =Sonyxperias<br/>
+Test for phone =Xperiasola<br/>
+Test for phone =Xperiau<br/>
+Test for phone =Xperiax10<br/>
+Test for phone =Xperiax10mini<br/>
+Test for phone =Xperiax10minipro<br/>
+Test for phone =Xperiax8<br/>
+Test for phone =Yari<br/>
+Test for phone =Zylo<br/>
+</div>
+</td>
+<td></td>
+<td>88</td>
+<td>com.sonyericsson.automatedtests.quick.UsingMobileRSSPage@1f0cf51</td></tr>
+</table><p>
+</body>
+</html>

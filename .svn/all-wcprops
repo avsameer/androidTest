@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/eshop/!svn/ver/9459/trunk/automated-tests
+END
+testng.policy
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/eshop/!svn/ver/6524/trunk/automated-tests/testng.policy
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/eshop/!svn/ver/9574/trunk/automated-tests/pom.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/eshop/!svn/ver/9719/trunk/automated-tests/build.xml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/eshop/!svn/ver/9574/trunk/automated-tests/.project
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/eshop/!svn/ver/9574/trunk/automated-tests/.classpath
+END

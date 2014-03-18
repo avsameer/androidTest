@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+	<suite name="Eshop - Accessories page"	parallel="false">
+	
+	<test name="Accessories Page testing -GB">
+		<parameter name="baseUri" value="/gb/phones/" />
+		<parameter name="browser" value="*firefox" />
+		<parameter name="host" value="shop.sonymobile.com" />
+		<parameter name="javascriptRequired" value="true" />
+		<classes>
+			<class name="com.sonyericsson.automatedtests.quick.getResponseTime">
+			</class>
+		</classes>
+	</test>
+	
+</suite>

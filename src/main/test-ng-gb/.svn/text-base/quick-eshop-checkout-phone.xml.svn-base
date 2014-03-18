@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Eshop - checkout flow - Phone" verbose="3"
+	parallel="false" thread-count="10">
+	<test name="Checkout flow Testing(Loggedin) - Phone -GB">
+		<parameter name="browser" value="*firefox" />
+		<parameter name="locale" value="gb" />
+		<parameter name="page" value="accessories" />
+		<parameter name="javascriptRequired" value="true" />
+		<parameter name="auth" value="loggedin" />
+		<parameter name="product" value="phone" />
+		<groups>
+			<run>
+				<include name="integrationtest" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.sonyericsson.automatedtests.quick.UsingEShopPageNew">
+			</class>
+		</classes>
+	</test>
+		
+<!-- 	<test name="Checkout flow Testing - Phone -SE"> -->
+<!-- 		<parameter name="browser" value="*firefox" /> -->
+<!-- 		<parameter name="locale" value="se" /> -->
+<!-- 		<parameter name="page" value="phones" /> -->
+<!-- 		<parameter name="javascriptRequired" value="true" /> -->
+<!-- 		<parameter name="product" value="phone" /> -->
+<!-- 		<groups> -->
+<!-- 			<run> -->
+<!-- 				<include name="integrationtest" /> -->
+<!-- 			</run> -->
+<!-- 		</groups> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.sonyericsson.automatedtests.quick.UsingEShopPage"> -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 	<test name="Checkout flow Testing - Phone -FR"> -->
+<!-- 		<parameter name="browser" value="*firefox" /> -->
+<!-- 		<parameter name="locale" value="fr" /> -->
+<!-- 		<parameter name="page" value="phones" /> -->
+<!-- 		<parameter name="javascriptRequired" value="true" /> -->
+<!-- 		<parameter name="product" value="phone" /> -->
+<!-- 		<groups> -->
+<!-- 			<run> -->
+<!-- 				<include name="integrationtest" /> -->
+<!-- 			</run> -->
+<!-- 		</groups> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.sonyericsson.automatedtests.quick.UsingEShopPage"> -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 	<test name="Checkout flow Testing - Phone -DE"> -->
+<!-- 		<parameter name="browser" value="*firefox" /> -->
+<!-- 		<parameter name="locale" value="de" /> -->
+<!-- 		<parameter name="page" value="phones" /> -->
+<!-- 		<parameter name="javascriptRequired" value="true" /> -->
+<!-- 		<parameter name="product" value="phone" /> -->
+<!-- 		<groups> -->
+<!-- 			<run> -->
+<!-- 				<include name="integrationtest" /> -->
+<!-- 			</run> -->
+<!-- 		</groups> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.sonyericsson.automatedtests.quick.UsingEShopPage"> -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 	<test name="Checkout flow Testing - Phone -ES"> -->
+<!-- 		<parameter name="browser" value="*firefox" /> -->
+<!-- 		<parameter name="locale" value="es" /> -->
+<!-- 		<parameter name="page" value="phones" /> -->
+<!-- 		<parameter name="javascriptRequired" value="true" /> -->
+<!-- 		<parameter name="product" value="phone" /> -->
+<!-- 		<groups> -->
+<!-- 			<run> -->
+<!-- 				<include name="integrationtest" /> -->
+<!-- 			</run> -->
+<!-- 		</groups> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.sonyericsson.automatedtests.quick.UsingEShopPage"> -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+
+</suite>

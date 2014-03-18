@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <tstamp>
+    <format pattern="EEE,ddMMMyyyy-HHmmss" locale="en,UK" property="time"/>
+  </tstamp>
+  <property name="suite" value="Assignment"/>
+  <delete file="EmailReport/surefire-Reports.zip"></delete>
+  <delete file="EmailReport/ECOM_FAILURES.zip"></delete>
+  <mkdir dir="Report History/Report-${suite}-${time}"></mkdir>
+  <copy todir="Report History/Report-${suite}-${time}">
+    <fileset dir="target/surefire-Reports"/>
+  </copy>
+  <zip update="true" basedir="Report History/Report-${suite}-${time}" destfile="Report History/Report-${suite}-${time}.zip"/>
+  <zip update="true" basedir="target/surefire-reports" destfile="EmailReport/surefire-Reports.zip"/>
+  <zip update="true" basedir="C:\ECOM_FAILURES" destfile="EmailReport/ECOM_FAILURES.zip"/>
+</target>
+</project>

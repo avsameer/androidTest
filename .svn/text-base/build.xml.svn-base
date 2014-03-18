@@ -1,0 +1,61 @@
+<project name="cws-selenium-hub" basedir=".">
+	<description>CWS Automated tests</description>
+	<property name="M2_REPO" location="${user.home}/.m2/repository" />
+	<property name="testng.report.dir" location="${basedir}/test-output" />
+	<property name="test.dir" location="${basedir}/src/main/test-ng-gb" />
+	<property name="solution.version" value="3.5-SNAPSHOT" />
+	<property name="host" value="${host}" />
+	<path id="lib.classpath">
+	<fileset dir="lib">
+	<include name="*.jar"/>
+	</fileset>
+	<pathelement path="${basedir}\bin"/>
+	</path>
+	<path id="hub.classpath">
+		<fileset dir="${basedir}/">
+			<include name="*.jar" />
+		</fileset>
+		<pathelement path="${java.class.path}/" />
+		<pathelement path="${M2_REPO}/com/sonyericsson/automated-tests/${solution.version}/automated-tests-${solution.version}.jar" />
+		<pathelement path="${M2_REPO}/org/testng/testng/6.3.1/testng-6.3.1.jar" />
+		<pathelement path="${M2_REPO}/com/beust/jcommander/1.13/jcommander-1.13.jar" />
+		<pathelement path="${M2_REPO}/org/seleniumhq/selenium/selenium-api/2.24.1/selenium-api-2.24.1.jar" />
+		<pathelement path="${M2_REPO}/org/seleniumhq/selenium/selenium-htmlunit-driver/2.24.1/selenium-htmlunit-driver-2.24.1.jar" />
+		<pathelement path="${M2_REPO}/net/sourceforge/htmlunit/htmlunit/2.9/htmlunit-2.9.jar" />
+		<pathelement path="${M2_REPO}/net/sourceforge/htmlunit/htmlunit-core-js/2.9/htmlunit-core-js-2.9.jar" />
+		<pathelement path="${M2_REPO}/org/seleniumhq/selenium/selenium-firefox-driver/2.24.1/selenium-firefox-driver-2.24.1.jar" />
+		<pathelement path="${M2_REPO}/org/seleniumhq/selenium/selenium-remote-driver/2.24.1/selenium-remote-driver-2.24.1.jar" />
+		<pathelement path="${M2_REPO}/org/json/json/20080701/json-20080701.jar" />
+		<pathelement path="${M2_REPO}/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar" />
+		<pathelement path="${M2_REPO}/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
+		<pathelement path="${M2_REPO}/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar" />
+		<pathelement path="${M2_REPO}/org/w3c/css/sac/1.3/sac-1.3.jar" />
+		<pathelement path="${M2_REPO}/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
+		<pathelement path="${M2_REPO}/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" />
+		<pathelement path="${M2_REPO}/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar" />
+		<!-- NOTE: Need to verify version of this dependency -->
+		<pathelement path="${M2_REPO}/org/apache/httpcomponents/httpmime/4.1.2/httpmime-4.1.2.jar" />
+		<pathelement path="${M2_REPO}/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar" />
+		<pathelement path="${M2_REPO}/net/sourceforge/cssparser/cssparser/0.9.5/cssparser-0.9.5.jar" />
+		<pathelement path="${M2_REPO}/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar" />
+		<pathelement path="${M2_REPO}/net/sourceforge/nekohtml/nekohtml/1.9.15/nekohtml-1.9.15.jar" />
+		<pathelement path="${M2_REPO}/xalan/xalan/2.7.1/xalan-2.7.1.jar" />
+		<pathelement path="${M2_REPO}/org/seleniumhq/selenium/selenium-support/2.24.1/selenium-support-2.24.1.jar" />
+		<pathelement path="${M2_REPO}/com/google/guava/guava/10.0.1/guava-10.0.1.jar" />
+		<pathelement path="${M2_REPO}/net/sourceforge/jexcelapi/jxl/2.6.12/jxl-2.6.12.jar" />
+               <pathelement path="${M2_REPO}/org/apache/commons/commons-exec/1.1/commons-exec-1.1.jar" />
+	</path>
+	<target name="quick-parallel" description="Run all quick tests in parallel mode">
+		<taskdef name="testng" classname="com.beust.testng.TestNGAntTask" classpathref="hub.classpath" />
+		<testng outputdir="${testng.report.dir}/Quicks" classpathref="hub.classpath" haltonfailure="false" suitethreadpoolsize="25">
+			<xmlfileset dir="${test.dir}" includes="quick*.xml" />
+		</testng>
+	</target>
+	<target name="execute-test" description="Run an individual test">
+		<input message="Please specify the TestNG xml filename" addproperty="filename"/>
+		<taskdef name="testng" classname="com.beust.testng.TestNGAntTask" classpathref="hub.classpath" />
+		<testng outputdir="${testng.report.dir}/${filename} reports" classpathref="hub.classpath" suitethreadpoolsize="25" haltonfailure="false">
+			<xmlfileset dir="${test.dir}" includes="${filename}" />
+		</testng>
+	</target>
+</project>

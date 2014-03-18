@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/eshop/!svn/ver/9660/trunk/automated-tests/src/main/test-ng-gb
+END
+quick-php.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/eshop/!svn/ver/9036/trunk/automated-tests/src/main/test-ng-gb/quick-php.xml
+END
+quick-accessoryshop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/eshop/!svn/ver/9574/trunk/automated-tests/src/main/test-ng-gb/quick-accessoryshop.xml
+END
+quick-accessoryAndPhone.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/eshop/!svn/ver/9036/trunk/automated-tests/src/main/test-ng-gb/quick-accessoryAndPhone.xml
+END
+quick-eshop-checkout-phone.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/eshop/!svn/ver/9660/trunk/automated-tests/src/main/test-ng-gb/quick-eshop-checkout-phone.xml
+END
+goGetResponseTime.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/eshop/!svn/ver/8584/trunk/automated-tests/src/main/test-ng-gb/goGetResponseTime.xml
+END
+quick-eshop-checkout-accessory.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/eshop/!svn/ver/9152/trunk/automated-tests/src/main/test-ng-gb/quick-eshop-checkout-accessory.xml
+END
+quick-storeentry.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/eshop/!svn/ver/9036/trunk/automated-tests/src/main/test-ng-gb/quick-storeentry.xml
+END
+quick-phoneshop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/eshop/!svn/ver/9102/trunk/automated-tests/src/main/test-ng-gb/quick-phoneshop.xml
+END
+quick-filteredcategory.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/eshop/!svn/ver/9036/trunk/automated-tests/src/main/test-ng-gb/quick-filteredcategory.xml
+END

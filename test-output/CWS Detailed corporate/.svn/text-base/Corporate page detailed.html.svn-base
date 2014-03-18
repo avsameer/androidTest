@@ -1,0 +1,549 @@
+<html>
+<head>
+<title>TestNG:  Corporate page detailed</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Corporate page detailed</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Mar 19 11:14:06 CET 2012</td>
+</tr>
+<tr><td>Total time:</td><td>216 seconds (216602 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>detailedtest </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sonyericsson.automatedtests.quick.UsingCorporatePage.verifyLatestnews()'><b>verifyLatestnews</b><br>Test class: com.sonyericsson.automatedtests.quick.UsingCorporatePage<br>Parameters: localhost:8080, /cws/corporate/home<br/>
+<a href="#Output-26037402" onClick='toggleBox("Output-26037402", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-26037402" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-26037402">
+Links in Latest news 4<br/>
+Latest news clicked -> <br/>
+********************************<br/>
+Logo link on page-> http://localhost:8080/cws/corporate/home<br/>
+Logo link on page-> http://www.sonymobile.com/cws/corporate/home<br/>
+Logo link expected-> http://localhost:8080/cws/corporate/home<br/>
+Left Column present -> <br/>
+Leftcolumn heading displayed<br/>
+Followus Container Links -> 4<br/>
+*****************************<br/>
+followusContainer displayed<br/>
+followusContainer text displayed at 1<br/>
+followusContainer image displayed at 1<br/>
+followusContainer image displayed at 1<br/>
+--------------------------<br/>
+followusContainer text displayed at 2<br/>
+followusContainer image displayed at 2<br/>
+followusContainer image displayed at 2<br/>
+--------------------------<br/>
+followusContainer text displayed at 3<br/>
+followusContainer image displayed at 3<br/>
+followusContainer image displayed at 3<br/>
+--------------------------<br/>
+followusContainer text displayed at 4<br/>
+followusContainer image displayed at 4<br/>
+followusContainer image displayed at 4<br/>
+--------------------------<br/>
+bannerContainerLeft heading displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+Tab Menu displayed -> 3<br/>
+***************************<br/>
+Tab menu displayed<br/>
+--------------------------<br/>
+Tab menu displayed<br/>
+--------------------------<br/>
+Tab menu displayed<br/>
+--------------------------<br/>
+Page content displayed<br/>
+Page details -> 31<br/>
+***************************<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Latest news clicked -> <br/>
+********************************<br/>
+Logo link on page-> http://localhost:8080/cws/corporate/home<br/>
+Logo link on page-> http://www.sonymobile.com/cws/corporate/home<br/>
+Logo link expected-> http://localhost:8080/cws/corporate/home<br/>
+Left Column present -> <br/>
+Leftcolumn heading displayed<br/>
+Followus Container Links -> 4<br/>
+*****************************<br/>
+followusContainer displayed<br/>
+followusContainer text displayed at 1<br/>
+followusContainer image displayed at 1<br/>
+followusContainer image displayed at 1<br/>
+--------------------------<br/>
+followusContainer text displayed at 2<br/>
+followusContainer image displayed at 2<br/>
+followusContainer image displayed at 2<br/>
+--------------------------<br/>
+followusContainer text displayed at 3<br/>
+followusContainer image displayed at 3<br/>
+followusContainer image displayed at 3<br/>
+--------------------------<br/>
+followusContainer text displayed at 4<br/>
+followusContainer image displayed at 4<br/>
+followusContainer image displayed at 4<br/>
+--------------------------<br/>
+bannerContainerLeft heading displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+Tab Menu displayed -> 3<br/>
+***************************<br/>
+Tab menu displayed<br/>
+--------------------------<br/>
+Tab menu displayed<br/>
+--------------------------<br/>
+Tab menu displayed<br/>
+--------------------------<br/>
+Page content displayed<br/>
+Page details -> 8<br/>
+***************************<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Latest news clicked -> <br/>
+********************************<br/>
+Logo link on page-> http://localhost:8080/cws/corporate/home<br/>
+Logo link on page-> http://www.sonymobile.com/cws/corporate/home<br/>
+Logo link expected-> http://localhost:8080/cws/corporate/home<br/>
+Left Column present -> <br/>
+Leftcolumn heading displayed<br/>
+Followus Container Links -> 4<br/>
+*****************************<br/>
+followusContainer displayed<br/>
+followusContainer text displayed at 1<br/>
+followusContainer image displayed at 1<br/>
+followusContainer image displayed at 1<br/>
+--------------------------<br/>
+followusContainer text displayed at 2<br/>
+followusContainer image displayed at 2<br/>
+followusContainer image displayed at 2<br/>
+--------------------------<br/>
+followusContainer text displayed at 3<br/>
+followusContainer image displayed at 3<br/>
+followusContainer image displayed at 3<br/>
+--------------------------<br/>
+followusContainer text displayed at 4<br/>
+followusContainer image displayed at 4<br/>
+followusContainer image displayed at 4<br/>
+--------------------------<br/>
+bannerContainerLeft heading displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+Tab Menu displayed -> 3<br/>
+***************************<br/>
+Tab menu displayed<br/>
+--------------------------<br/>
+Tab menu displayed<br/>
+--------------------------<br/>
+Tab menu displayed<br/>
+--------------------------<br/>
+Page content displayed<br/>
+Page details -> 10<br/>
+***************************<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+Text column displayed<br/>
+--------------------------<br/>
+</div>
+</td>
+<td></td>
+<td>121</td>
+<td>com.sonyericsson.automatedtests.quick.UsingCorporatePage@174a6e2</td></tr>
+<tr>
+<td title='com.sonyericsson.automatedtests.quick.UsingCorporatePage.verifyMidcontentdet()'><b>verifyMidcontentdet</b><br>Test class: com.sonyericsson.automatedtests.quick.UsingCorporatePage<br>Parameters: localhost:8080, /cws/corporate/home<br/>
+<a href="#Output-23792676" onClick='toggleBox("Output-23792676", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-23792676" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-23792676">
+Midcontent Links present 8<br/>
+Logo link on page-> http://localhost:8080/cws/corporate/home<br/>
+Logo link on page-> http://www.sonymobile.com/cws/corporate/home<br/>
+Logo link expected-> http://localhost:8080/cws/corporate/home<br/>
+Midcontent link clicked -> Make our acquaintance<br/>
+***********************************<br/>
+Top Nav Link present -><br/>
+Top Nav Link present -><br/>
+Top Nav Link present -><br/>
+Top Nav Link present -><br/>
+Top Nav Link present -><br/>
+Intro title displayed<br/>
+Intro text displayed<br/>
+sub-page-banner displayed<br/>
+spb-caption displayed<br/>
+sub-page-banner displayed<br/>
+spb-caption displayed<br/>
+sub-page-banner displayed<br/>
+spb-caption displayed<br/>
+Logo link on page-> http://localhost:8080/cws/corporate/home<br/>
+Logo link on page-> http://www.sonymobile.com/cws/corporate/home<br/>
+Logo link expected-> http://localhost:8080/cws/corporate/home<br/>
+Midcontent link clicked -> Get the facts<br/>
+***********************************<br/>
+Top Nav Link present -><br/>
+Top Nav Link present -><br/>
+Top Nav Link present -><br/>
+Top Nav Link present -><br/>
+Top Nav Link present -><br/>
+promotion title displayed<br/>
+*****************************<br/>
+Company Bottom Links -> 3<br/>
+*****************************<br/>
+--------------------------<br/>
+--------------------------<br/>
+--------------------------<br/>
+Company sub Links -> 2<br/>
+*****************************<br/>
+--------------------------<br/>
+--------------------------<br/>
+Logo link on page-> http://localhost:8080/cws/corporate/home<br/>
+Logo link on page-> http://www.sonymobile.com/cws/corporate/home<br/>
+Logo link expected-> http://localhost:8080/cws/corporate/home<br/>
+Midcontent link clicked -> For a greener future<br/>
+***********************************<br/>
+Top Nav Link present -><br/>
+Top Nav Link present -><br/>
+Top Nav Link present -><br/>
+Top Nav Link present -><br/>
+Top Nav Link present -><br/>
+Sustainability bucket title displayed <br/>
+Sustainability bucket text displayed<br/>
+*****************************<br/>
+Sustainability buckets -> <br/>
+*****************************<br/>
+Sustainability bucket title displayed at -> 11<br/>
+Sustainability bucket image displayed at -> 11<br/>
+Sustainability bucket discription displayed at -> 11<br/>
+Sustainability bucket link displayed at -> 11<br/>
+--------------------------<br/>
+Sustainability bucket title displayed at -> 12<br/>
+Sustainability bucket image displayed at -> 12<br/>
+Sustainability bucket discription displayed at -> 12<br/>
+Sustainability bucket link displayed at -> 12<br/>
+--------------------------<br/>
+Sustainability bucket title displayed at -> 13<br/>
+Sustainability bucket image displayed at -> 13<br/>
+Sustainability bucket discription displayed at -> 13<br/>
+Sustainability bucket link displayed at -> 13<br/>
+--------------------------<br/>
+Sustainability bucket title displayed at -> 21<br/>
+Sustainability bucket image displayed at -> 21<br/>
+Sustainability bucket discription displayed at -> 21<br/>
+Sustainability bucket link displayed at -> 21<br/>
+--------------------------<br/>
+Sustainability bucket title displayed at -> 22<br/>
+Sustainability bucket image displayed at -> 22<br/>
+Sustainability bucket discription displayed at -> 22<br/>
+Sustainability bucket link displayed at -> 22<br/>
+--------------------------<br/>
+Sustainability bucket title displayed at -> 23<br/>
+Sustainability bucket image displayed at -> 23<br/>
+Sustainability bucket discription displayed at -> 23<br/>
+Sustainability bucket link displayed at -> 23<br/>
+--------------------------<br/>
+Sustainability disclaimer -> <br/>
+*****************************<br/>
+--------------------------<br/>
+Logo link on page-> http://localhost:8080/cws/corporate/home<br/>
+Logo link on page-> http://www.sonymobile.com/cws/corporate/home<br/>
+Logo link expected-> http://localhost:8080/cws/corporate/home<br/>
+Midcontent link clicked -> Join us<br/>
+***********************************<br/>
+mediaSpaceContainer displayed<br/>
+*****************************<br/>
+--------------------------<br/>
+--------------------------<br/>
+--------------------------<br/>
+--------------------------<br/>
+Footer right Links -> 3<br/>
+*****************************<br/>
+For students and graduates<br/>
+The journey starts here. Learn more about the exciting opportunities to be...<br/>
+--------------------------<br/>
+For students and graduates
+The journey starts here. Learn more about the exciting opportunities to be...<br/>
+<br/>
+--------------------------<br/>
+For professionals<br/>
+It could be the right time to take your career to the next level with one of...<br/>
+--------------------------<br/>
+Logo link on page-> http://localhost:8080/cws/corporate/home<br/>
+Logo link on page-> http://www.sonymobile.com/cws/corporate/home<br/>
+Logo link expected-> http://localhost:8080/cws/corporate/home<br/>
+Midcontent link clicked -> Browse the press resources<br/>
+***********************************<br/>
+Left Column present -> <br/>
+Leftcolumn heading displayed<br/>
+Followus Container Links -> 4<br/>
+*****************************<br/>
+followusContainer displayed<br/>
+followusContainer text displayed at 1<br/>
+followusContainer image displayed at 1<br/>
+followusContainer image displayed at 1<br/>
+--------------------------<br/>
+followusContainer text displayed at 2<br/>
+followusContainer image displayed at 2<br/>
+followusContainer image displayed at 2<br/>
+--------------------------<br/>
+followusContainer text displayed at 3<br/>
+followusContainer image displayed at 3<br/>
+followusContainer image displayed at 3<br/>
+--------------------------<br/>
+followusContainer text displayed at 4<br/>
+followusContainer image displayed at 4<br/>
+followusContainer image displayed at 4<br/>
+--------------------------<br/>
+bannerContainerLeft heading displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+bannerContainerLeft displayed <br/>
+Middle Column -> <br/>
+Tab Menu -> 3<br/>
+***************************<br/>
+Main column displayed<br/>
+--------------------------<br/>
+Main column displayed<br/>
+--------------------------<br/>
+Main column displayed<br/>
+--------------------------<br/>
+PressReleasesTabs -> 5<br/>
+***************************<br/>
+text column displayed<br/>
+--------------------------<br/>
+text column displayed<br/>
+--------------------------<br/>
+text column displayed<br/>
+--------------------------<br/>
+text column displayed<br/>
+--------------------------<br/>
+text column displayed<br/>
+--------------------------<br/>
+featuredReleaseMedia displayed<br/>
+carouselNext displayed<br/>
+carouselPrevious displayed<br/>
+carousel displayed<br/>
+shareThisPage displayed<br/>
+more-arrow-small displayed<br/>
+pressReleasesTabView displayed<br/>
+txttitle displayed<br/>
+shareThisPage displayed<br/>
+--------------------------<br/>
+txttitle displayed<br/>
+shareThisPage displayed<br/>
+--------------------------<br/>
+txttitle displayed<br/>
+shareThisPage displayed<br/>
+--------------------------<br/>
+Heading displayed<br/>
+newsFeed displayed<br/>
+rightColumn displayed <br/>
+rightColumn searchBox displayed <br/>
+rightColumn banner displayed <br/>
+No of right banners -> 5<br/>
+bannerContainerRight image displayed at -> 1<br/>
+bannerContainerRight image displayed at -> 3<br/>
+bannerContainerRight image displayed at -> 5<br/>
+bannerContainerRight image displayed at -> 7<br/>
+bannerContainerRight image displayed at -> 9<br/>
+</div>
+</td>
+<td></td>
+<td>94</td>
+<td>com.sonyericsson.automatedtests.quick.UsingCorporatePage@174a6e2</td></tr>
+<tr>
+<td title='com.sonyericsson.automatedtests.quick.UsingCorporatePage.verifyProductnsupport()'><b>verifyProductnsupport</b><br>Test class: com.sonyericsson.automatedtests.quick.UsingCorporatePage<br>Parameters: localhost:8080, /cws/corporate/home<br/>
+<a href="#Output-27346029" onClick='toggleBox("Output-27346029", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27346029" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27346029">
+P & S details -> 2<br/>
+***************************<br/>
+Link clicked -> View our portfolio<br/>
+--------------------------<br/>
+Link clicked -> Get support for your phone<br/>
+--------------------------<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sonyericsson.automatedtests.quick.UsingCorporatePage@174a6e2</td></tr>
+</table><p>
+</body>
+</html>

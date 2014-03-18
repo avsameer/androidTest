@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/eshop/!svn/ver/9665/trunk/automated-tests/src/main/java/com/sonyericsson/automatedtests
+END
+CwsSeleniumBaseTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/eshop/!svn/ver/9036/trunk/automated-tests/src/main/java/com/sonyericsson/automatedtests/CwsSeleniumBaseTest.java
+END
+ICwsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/eshop/!svn/ver/7827/trunk/automated-tests/src/main/java/com/sonyericsson/automatedtests/ICwsTest.java
+END
+Screenshot.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/eshop/!svn/ver/9660/trunk/automated-tests/src/main/java/com/sonyericsson/automatedtests/Screenshot.java
+END
+CwsAbstractBaseTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/eshop/!svn/ver/9574/trunk/automated-tests/src/main/java/com/sonyericsson/automatedtests/CwsAbstractBaseTest.java
+END
+EcomSetup.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/eshop/!svn/ver/9038/trunk/automated-tests/src/main/java/com/sonyericsson/automatedtests/EcomSetup.java
+END

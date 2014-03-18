@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Eshop - checkout flow - Accessory" verbose="3"
+	parallel="false" thread-count="10">
+	<test name="Checkout flow Testing - Accessory -GB">
+		<parameter name="browser" value="*firefox" />
+		<parameter name="locale" value="gb" />
+		<parameter name="page" value="accessories" />
+		<parameter name="javascriptRequired" value="true" />
+		<parameter name="product" value="accessory" />
+		
+		<groups>
+			<run>
+				<include name="integrationtest" /> 
+			</run>
+		</groups>
+		<classes>
+			<class name="com.sonyericsson.automatedtests.quick.UsingEShopPage">		
+			</class>
+		</classes>
+ 	</test> 
+ 	
+<!--  	<test name="Checkout flow Testing - Accessory -SE"> -->
+<!-- 		<parameter name="browser" value="*firefox" /> -->
+<!-- 		<parameter name="locale" value="se" /> -->
+<!-- 		<parameter name="page" value="accessories" /> -->
+<!-- 		<parameter name="javascriptRequired" value="true" /> -->
+<!-- 		<parameter name="product" value="accessory" /> -->
+		
+<!-- 		<groups> -->
+<!-- 			<run> -->
+<!-- 				<include name="integrationtest" />  -->
+<!-- 			</run> -->
+<!-- 		</groups> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.sonyericsson.automatedtests.quick.UsingEShopPage">		 -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!--  	</test>  -->
+ 	
+<!--  	<test name="Checkout flow Testing - Accessory -FR"> -->
+<!-- 		<parameter name="browser" value="*firefox" /> -->
+<!-- 		<parameter name="locale" value="fr" /> -->
+<!-- 		<parameter name="page" value="accessories" /> -->
+<!-- 		<parameter name="javascriptRequired" value="true" /> -->
+<!-- 		<parameter name="product" value="accessory" /> -->
+		
+<!-- 		<groups> -->
+<!-- 			<run> -->
+<!-- 				<include name="integrationtest" />  -->
+<!-- 			</run> -->
+<!-- 		</groups> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.sonyericsson.automatedtests.quick.UsingEShopPage">		 -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!--  	</test>  -->
+ 	
+<!--  	<test name="Checkout flow Testing - Accessory -DE"> -->
+<!-- 		<parameter name="browser" value="*firefox" /> -->
+<!-- 		<parameter name="locale" value="de" /> -->
+<!-- 		<parameter name="page" value="accessories" /> -->
+<!-- 		<parameter name="javascriptRequired" value="true" /> -->
+<!-- 		<parameter name="product" value="accessory" /> -->
+		
+<!-- 		<groups> -->
+<!-- 			<run> -->
+<!-- 				<include name="integrationtest" />  -->
+<!-- 			</run> -->
+<!-- 		</groups> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.sonyericsson.automatedtests.quick.UsingEShopPage">		 -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!--  	</test>  -->
+ 	
+<!--  	<test name="Checkout flow Testing - Accessory -ES"> -->
+<!-- 		<parameter name="browser" value="*firefox" /> -->
+<!-- 		<parameter name="locale" value="es" /> -->
+<!-- 		<parameter name="page" value="accessories" /> -->
+<!-- 		<parameter name="javascriptRequired" value="true" /> -->
+<!-- 		<parameter name="product" value="accessory" /> -->
+		
+<!-- 		<groups> -->
+<!-- 			<run> -->
+<!-- 				<include name="integrationtest" />  -->
+<!-- 			</run> -->
+<!-- 		</groups> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.sonyericsson.automatedtests.quick.UsingEShopPage">		 -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!--  	</test>  -->
+
+</suite>
